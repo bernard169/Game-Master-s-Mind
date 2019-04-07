@@ -1,4 +1,5 @@
 import team
+structure = {"humain": {}, "elfe":{}, "nain":{}}
 
 class Player():
     def __init__(self, playerName, characterName, infos = {}):
@@ -19,4 +20,3 @@ class Player():
     
     def getInfos (self):
         return self.__infos
-        
